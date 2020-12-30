@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 
+  <view class="changeButton">
+    <button bindtap="changeButton" > change </button.
+  </view>
+-->
+  <image class='background' src="../../pages/asset/background_moon.jpg" mode="aspectFill"></image>
+
+  <view class="preTimeView">
+    <text class="preTimeClass" style="font-size:40rpx; color:#639107;">{{preTimeText}}</text>
+  </view>
+
+  <view class="postTimeView">
+    <text class="postTimeClass" style="font-size:45rpx; color:#c9080f;">{{postTimeText}}</text>
+  </view>
+</view>
